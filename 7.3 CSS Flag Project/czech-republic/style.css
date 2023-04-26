@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flag {
+  height: 600px;
+  width: 900px;
+}
+
+.top {
+  background-color: white;
+  width: 900px;
+  height: 300px;
+  position: relative;
+}
+
+.bottom {
+  background-color: red;
+  width: 900px;
+  height: 300px;
+  position: relative;
+}
+
+.bottom .triangle {
+  position: absolute;
+
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 300px 300px 0 0;
+  border-color: blue transparent transparent transparent;
+}
+
+.top .triangle {
+  position: absolute;
+
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 300px 0 0 300px;
+  border-color: transparent transparent transparent blue;
+}
