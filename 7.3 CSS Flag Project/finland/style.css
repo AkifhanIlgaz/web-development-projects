@@ -28,3 +28,13 @@ body {
   position: absolute;
   top: 300px;
 }
+
+/*
+  CSS Positioning 
+
+  Static: Default HTML position
+  Relative: Relative to default HTML position
+  Absolute: Relative to nearest positioned ancestor or top left of website
+  Fixed: Relative to top left of browser
+
+*/
